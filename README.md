@@ -12,8 +12,8 @@ This is a simple Pong clone written in C using the SDL2 framework. The project i
 | P          | Toggle pause           |
 | Up arrow   | Move right player up   |
 | Down arrow | Move right player down |
-| W arrow    | Move left player up    |
-| S arrow    | Move left player down  |
+| W          | Move left player up    |
+| S          | Move left player down  |
 
 &nbsp;
 &nbsp;
