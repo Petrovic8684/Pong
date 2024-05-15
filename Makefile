@@ -1,0 +1,2 @@
+all:
+	gcc -I src/sdl2/include -L src/sdl2/lib -L src/util -L src/game -L src/paddle -L src/ball src/main.c src/game/game.c src/paddle/paddle.c src/ball/ball.c src/util/sounds/sounds.c src/util/fonts/fonts.c src/util/colors/colors.c src/util/math/math.c -o Pong -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_mixer
